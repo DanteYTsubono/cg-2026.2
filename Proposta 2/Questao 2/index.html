@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposta Atividade 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        canvas {
+            border: 2px solid #333;
+            background-color: #1a1a1a; 
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .info-panel {
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            gap: 20px;
+        }
+
+        /* Painel para exibir os comandos do exercício */
+        .controls-panel {
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #e8e8e8;
+            border-radius: 6px;
+            font-size: 13px;
+            text-align: center;
+            color: #444;
+        }
+
+        p {
+            margin: 0;
+            font-size: 14px;
+            font-family: monospace;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+
+    <canvas id="canvas" width="600" height="600"></canvas>
+
+    <div class="info-panel">
+        <p id="canvasCoordinates">Canvas: (300, 300)</p>
+    </div>
+
+    <div class="controls-panel">
+        <strong>Atalhos:</strong> [R] Modo Reta (2 cliques) | [T] Modo Triângulo (3 cliques) | [0-9] Alterar Cor
+    </div>
+
+    <script src="Q2.js"></script>
+</body>
+</html>
