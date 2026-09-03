@@ -10,7 +10,7 @@
 
     // 1. VÉRTICES (Retângulo base)
     const vertices = new Float32Array([
-        -1.0, -1.0,
+        -1.0, -1.0, 
          1.0, -1.0,
         -1.0,  1.0, // Triangulo retangulo, inferior esquerdo
 
